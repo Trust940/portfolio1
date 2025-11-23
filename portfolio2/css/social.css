@@ -1,0 +1,53 @@
+.social-ico {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.social-icons i {
+  font-size: 24px;
+}
+
+/* Background color Icon-specific styles */
+
+/* FACEBOOK specific styles STARTs */
+.social-icons a .fa-facebook{
+  background-color: #3b5998;
+  margin: 0 10px;
+  color: #FFFF;
+  padding: 10px;
+  border-radius: 50%;
+  transition: color 0.2s ease;
+}
+.social-icons a:hover .fa-facebook{
+  color: #333;
+}
+/* FACEBOOK specific styles ENDs */
+
+/* Github specific styles Starts */
+.social-icons .fa-github {
+  background-color: #333;
+  margin: 0 10px;
+  color: #FFFF;
+  padding: 10px;
+  border-radius: 50%;
+  transition: color 0.2s ease;
+}
+.social-icons a:hover .fa-github{
+  color: #FFFF;
+  background-color: #726969;
+}
+/* Github specific styles Ends */
+
+.social-icons .fa-whatsapp {
+  background-color: #25d366;
+  margin: 0 10px;
+  color: #FFFF;
+  padding: 10px;
+  border-radius: 50%;
+  transition: color 0.2s ease;
+}
+.social-icons a:hover .fa-whatsapp{
+  color: #333;
+}
